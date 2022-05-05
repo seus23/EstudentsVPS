@@ -1,0 +1,19 @@
+{
+  "name": "estudentsvps",
+  "version": "1.0.0",
+  "description": "\"Proyecto para LaunchX. Basado en los estudiantes de Visual Partner-Ship\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seus23/EstudentsVPS.git"
+  },
+  "author": "\"Seus\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seus23/EstudentsVPS/issues"
+  },
+  "homepage": "https://github.com/seus23/EstudentsVPS#readme"
+}
