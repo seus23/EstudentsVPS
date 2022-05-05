@@ -27,4 +27,4 @@
 
 
 ## **Se trato de apegar el proyecto lo más posible a está imagen*
-<img width="1247" alt="image" src="https://user-images.githubusercontent.com17634377165870375-fe5a730a-eada-4abe-ac9c-42334e003b18.png">
+<img width="1247" alt="image" src="https://user-images.githubusercontent.com/17634377/165870375-fe5a730a-eada-4abe-ac9c-42334e003b18.png">
