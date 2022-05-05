@@ -11,4 +11,9 @@ describe("Test de StudentService:", () => {
         const studentsWithCertification = StudentService.getEmailStudentsWCertification();
         expect(studentsWithCertification.length).toBe(29);
     });
+
+    test("3) Estudiantes con credits>500", () => {
+        const students500 = StudentService.getStudents500();
+        expect(students500.length).toBe(27);
+    });
 });
