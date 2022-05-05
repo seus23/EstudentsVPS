@@ -14,14 +14,17 @@
 
 ## **Diseño de componentes:**
 *Los componentes están divididos en 3 partes*
-1. ***Reader***
-*Es el encargado de leer el archivo visualpartners.json que funge como base de datos y transformarlo en una lista.*
+1. ***Reader:***
+> *Es el encargado de leer el archivo visualpartners.json que funge como base de datos y transformarlo en una lista.*
 
-1. ***StudentService***
-*Contiene dos métodos estáticos, ambos reciben como parámetro una lista. 
-    El primer método selecciona de la lista a los estudiantes que cuentan con una certificación y regresa un arreglo nuevo que contiene solo los correos de dichos estudiantes.
-    El segundo método selecciona de la lista los estudiantes que cuentan con un crédito mayor a 500 puntos y regresa una nueva lista con todos los datos de estos estudiantes.*
+1. ***StudentService:***
+> *Contiene dos métodos estáticos, ambos reciben como parámetro una lista. 
+    >>El primer método selecciona de la lista a los estudiantes que cuentan con una certificación y regresa un arreglo nuevo que contiene solo los correos de dichos estudiantes.
+    >>El segundo método selecciona de la lista los estudiantes que cuentan con un crédito mayor a 500 puntos y regresa una nueva lista con todos los datos de estos estudiantes.*
 
-1. ***StudentController***
-*Se encarga de mezclar los métodos anteriores, y enviando a StudentService la lista procesada por Reader*
+1. ***StudentController:***
+> *Se encarga de mezclar los métodos anteriores, y enviando a StudentService la lista procesada por Reader*
 
+
+## **Se trato de apegar el proyecto lo más posible a está imagen*
+https://user-images.githubusercontent.com/17634377/165870375-fe5a730a-eada-4abe-ac9c-42334e003b18.png
