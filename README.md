@@ -1,1 +1,27 @@
-# EstudentsVPS
+# API EstudentsVPS 
+
+## **Dependencias:**
+
+### * Jest
+    Para realizar las pruebas de unidad a cada uno de los componentes
+
+### * ESLint
+    Para corregir y tener una mejor calidad en el código.
+
+### * Express
+    Para ejecutar el API.
+
+
+## **Diseño de componentes:**
+*Los componentes están divididos en 3 partes*
+1. ***Reader***
+*Es el encargado de leer el archivo visualpartners.json que funge como base de datos y transformarlo en una lista.*
+
+1. ***StudentService***
+*Contiene dos métodos estáticos, ambos reciben como parámetro una lista. 
+    El primer método selecciona de la lista a los estudiantes que cuentan con una certificación y regresa un arreglo nuevo que contiene solo los correos de dichos estudiantes.
+    El segundo método selecciona de la lista los estudiantes que cuentan con un crédito mayor a 500 puntos y regresa una nueva lista con todos los datos de estos estudiantes.*
+
+1. ***StudentController***
+*Se encarga de mezclar los métodos anteriores, y enviando a StudentService la lista procesada por Reader*
+
