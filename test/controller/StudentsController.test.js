@@ -1,4 +1,4 @@
-const StudentController = require('./../../lib/controller/StudentsController');
+const StudentController = require("./../../lib/controller/StudentsController");
 
 
 describe("Test de StudentController:", () => {

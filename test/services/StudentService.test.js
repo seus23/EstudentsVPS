@@ -1,4 +1,4 @@
-const StudentService = require('./../../lib/services/StudentService');
+const StudentService = require("./../../lib/services/StudentService");
 
 
 describe("Test de StudentService:", () => {
